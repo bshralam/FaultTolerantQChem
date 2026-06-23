@@ -1,0 +1,9 @@
+matplotlib==3.11.0
+matplotlib-inline==0.2.2
+numpy==2.5.0
+openfermion==1.7.1
+openfermionpyscf==0.5
+pennylane==0.45.0
+pennylane_lightning==0.45.0
+pyscf==2.13.1
+seaborn==0.13.2
