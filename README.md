@@ -7,12 +7,6 @@ depends on classical electronic-structure choices such as basis set and active-s
 size. Hamiltonians are block-encoded using double factorization, and resources are
 estimated with PennyLane.
 
-The central theme is the bridge between classical quantum chemistry and
-fault-tolerant quantum computing: the same decisions that govern accuracy and cost
-in classical multireference methods — orbital count, active space, basis — directly
-determine the logical-qubit and gate requirements of the corresponding quantum
-algorithm.
-
 ## Studies
 
 **Single-molecule resource estimation** (`01_single_molecule_estimate.ipynb`)
@@ -46,11 +40,3 @@ Resource cost vs active-space size (N₂):
 Representative figures for H₂O / STO-3G: 1-norm λ ≈ 53.6, ~1.0 × 10⁸ Toffoli gates,
 290 logical qubits.
 
-## Scope
-
-These are resource *estimates* for fault-tolerant QPE, not circuit executions. The
-active-space scan uses a leading-block truncation of the molecular-orbital integrals
-to demonstrate scaling; a physically motivated active space would select orbitals by
-energy, occupation, or symmetry rather than by index.
-
-## Setup
