@@ -1,13 +1,13 @@
 # FaultTolerantQChem
 
-Resource estimation for fault-tolerant quantum simulation of molecular systems.
+## ObjectiveResource estimation for fault-tolerant quantum simulation of molecular systems.
 This repository quantifies how the cost of simulating molecular Hamiltonians via
 quantum phase estimation (QPE) — measured in logical qubits and Toffoli gates —
 depends on classical electronic-structure choices such as basis set and active-space
 size. Hamiltonians are block-encoded using double factorization, and resources are
 estimated with PennyLane.
 
-## Studies
+## Features
 
 **Single-molecule resource estimation** (`01_single_molecule_estimate.ipynb`)
 Estimates the QPE cost of simulating H₂O under double factorization, reporting the
