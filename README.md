@@ -1,6 +1,6 @@
 # FaultTolerantQChem
 
-## ObjectiveResource estimation for fault-tolerant quantum simulation of molecular systems.
+## Objective
 This repository quantifies how the cost of simulating molecular Hamiltonians via
 quantum phase estimation (QPE) — measured in logical qubits and Toffoli gates —
 depends on classical electronic-structure choices such as basis set and active-space
